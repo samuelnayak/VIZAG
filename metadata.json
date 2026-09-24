@@ -1,0 +1,6 @@
+{
+  "name": "Medical Sathi",
+  "description": "Vizag Medical Sathi helps patients travelling to Visakhapatnam with hospital appointments, Odia-Telugu-English language support, hospital navigation and trusted patient companions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
