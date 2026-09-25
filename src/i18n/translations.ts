@@ -227,7 +227,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       bookAssistance: 'Book Assistance',
       nonClinicalBadge: 'Non-Clinical Patient Support',
       vizagNav: 'Visakhapatnam Hospital Navigation',
-      callUs: '8114913690',
+      callUs: '+91 7327005671',
     },
     hero: {
       badge: 'Language Support: Odia (ଓଡ଼ିଆ) • Telugu (తెలుగు) • English',
@@ -439,7 +439,7 @@ export const translations: Record<Language, TranslationDictionary> = {
       bookAssistance: 'ସାହାଯ୍ୟ ବୁକ୍ କରନ୍ତୁ',
       nonClinicalBadge: 'ଅଣ-ଚିକିତ୍ସକ ରୋଗୀ ସହାୟତା',
       vizagNav: 'ଭାଇଜାଗ୍ ହସ୍ପିଟାଲ୍ ସହାୟତା',
-      callUs: '8114913690',
+      callUs: '+91 7327005671',
     },
     hero: {
       badge: 'ଭାଷା ସହାୟତା: ଓଡ଼ିଆ • ତେଲୁଗୁ • ଇଂରାଜୀ',

@@ -137,8 +137,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
             <div className="pt-1 flex items-center gap-1.5 text-xs text-slate-500">
               <PhoneCall className="w-3.5 h-3.5 text-slate-400" />
               <span>{t.hero.helplineText}</span>
-              <a href="tel:8114913690" className="font-bold text-slate-800 hover:text-teal-700 underline">
-                8114913690
+              <a href="tel:+917327005671" className="font-bold text-slate-800 hover:text-teal-700 underline">
+                +91 7327005671
               </a>
             </div>
 
@@ -198,7 +198,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                         className="w-full py-3 px-4 text-xs sm:text-sm font-bold text-white bg-emerald-600 hover:bg-emerald-700 rounded-xl shadow-sm flex items-center justify-center gap-2 transition-all"
                       >
                         <MessageCircle className="w-4 h-4 fill-white text-emerald-600" />
-                        <span>{language === 'or' ? 'ହ୍ୱାଟ୍ସଆପରେ କଥା ହୁଅନ୍ତୁ (8114913690)' : 'Chat on WhatsApp (8114913690)'}</span>
+                        <span>{language === 'or' ? 'ହ୍ୱାଟ୍ସଆପରେ କଥା ହୁଅନ୍ତୁ' : 'Chat on WhatsApp'}</span>
                       </a>
 
                       <button
@@ -243,7 +243,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                           required
                           value={formData.phone}
                           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                          placeholder={language === 'or' ? 'ଉଦାହରଣ: 81149 13690' : 'e.g. 81149 13690'}
+                          placeholder={language === 'or' ? 'ଉଦାହରଣ: 7327005671' : 'e.g. 7327005671'}
                           className="w-full pl-9 pr-3 py-2 text-xs sm:text-sm bg-slate-50 border border-slate-200 rounded-xl text-slate-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-teal-500 transition-all"
                         />
                       </div>
@@ -315,7 +315,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                       className="w-full mt-2 py-3 px-4 text-xs sm:text-sm font-extrabold text-white bg-teal-700 hover:bg-teal-800 rounded-xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-[0.99]"
                     >
                       <MessageCircle className="w-4 h-4 text-emerald-300" />
-                      <span>{language === 'or' ? 'ସାଥୀ ବୁକ୍ କରନ୍ତୁ (8114913690)' : 'Book Sathi Now (8114913690)'}</span>
+                      <span>{language === 'or' ? 'ସାଥୀ ବୁକ୍ କରନ୍ତୁ' : 'Book Sathi Now'}</span>
                       <ArrowRight className="w-4 h-4" />
                     </button>
 

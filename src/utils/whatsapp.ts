@@ -1,4 +1,4 @@
-const WHATSAPP_PHONE_NUMBER = '918114913690';
+const WHATSAPP_PHONE_NUMBER = '917327005671';
 
 export const buildWhatsAppUrl = (message?: string): string => {
   if (!message) {
